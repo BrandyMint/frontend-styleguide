@@ -1,4 +1,3 @@
-
 # Оформление разметки
 
 1. Не добавляем классы в разметку, если они не используются стилями, 
@@ -8,3 +7,7 @@
    далее добавляем элементам кастомные классы.
 
 3. Для javascript используем классы и id вида `j-some-element`, для тестов — `t-some-element`
+
+4. В head располагаем сначала стили, за ними — главный js-файл (именно в таком порядке). Остальные js убираем в footer.
+   Пример: `https://gist.github.com/sibsfinx/5915624`. 
+   Почитать: `https://developers.google.com/speed/docs/best-practices/rtt#PutStylesBeforeScripts`
