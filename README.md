@@ -1,7 +1,7 @@
 # Правила frontend-разработки
 
-# common.md — общие рекомендации
+### common.md — общие рекомендации
 
-# markup.md — разметка
+### markup.md — разметка
 
-# styles.md — стили
+### styles.md — стили
