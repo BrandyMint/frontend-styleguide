@@ -11,3 +11,6 @@
 4. В head располагаем сначала стили, за ними — главный js-файл (именно в таком порядке). Остальные js убираем в footer.
    Пример: `https://gist.github.com/sibsfinx/5915624`. 
    Почитать: `https://developers.google.com/speed/docs/best-practices/rtt#PutStylesBeforeScripts`
+
+5. Не используем `content_for` — ведёт к перегрузке layout'а и непрозрачности организации вьюх. 
+   Вместо этого выносим код в partial'ы и складываем во вьюхах контроллера или `views/application`.
