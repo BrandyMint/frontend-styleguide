@@ -6,11 +6,13 @@
 2. Framework-first! Сначала выполняем вёрстку средствами фреймворка, 
    далее добавляем элементам кастомные классы.
 
-3. Для javascript используем классы и id вида `j-some-element`, для тестов — `t-some-element`
+3. Классы и id именуем через дефисы: `.some-page-element`
 
-4. В head располагаем сначала стили, за ними — главный js-файл (именно в таком порядке). Остальные js убираем в footer.
+4. Для javascript используем классы и id вида `j-some-element`, для тестов — `t-some-element`
+
+5. В head располагаем сначала стили, за ними — главный js-файл (именно в таком порядке). Остальные js убираем в footer.
    Пример: `https://gist.github.com/sibsfinx/5915624`. 
    Почитать: `https://developers.google.com/speed/docs/best-practices/rtt#PutStylesBeforeScripts`
 
-5. Не используем `content_for` — ведёт к перегрузке layout'а и непрозрачности организации вьюх. 
+6. Не используем `content_for` — ведёт к перегрузке layout'а и непрозрачности организации вьюх. 
    Вместо этого выносим код в partial'ы и складываем во вьюхах контроллера или `views/application`.
