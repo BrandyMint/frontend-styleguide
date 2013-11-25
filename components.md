@@ -6,6 +6,8 @@ Twitter Bower :: http://bower.io
 
 Список пакетов — в bower.json
 
+Репозиторий bower-компонентов :: http://sindresorhus.com/bower-components/
+
 Установленные компоненты:
 
 ```
