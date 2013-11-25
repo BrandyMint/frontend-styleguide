@@ -96,4 +96,6 @@
 
 ## Что почитать?
 
+http://thesassway.com/beginner/how-to-structure-a-sass-project
+
 http://css-tricks.com/sass-style-guide/
