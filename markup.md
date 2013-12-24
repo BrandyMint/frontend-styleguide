@@ -8,7 +8,7 @@
 
 3. Классы и id именуем через дефисы: `.some-page-element`
 
-4. Для javascript используем классы и id вида `j-some-element`, для тестов — `t-some-element`
+4. Для javascript используем аттрибут `role`
 
 5. В head располагаем сначала стили, за ними — главный js-файл (именно в таком порядке). Остальные js убираем в footer.
    Пример: `https://gist.github.com/sibsfinx/5915624`. 
