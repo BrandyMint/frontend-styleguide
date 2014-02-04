@@ -35,6 +35,8 @@
       .posts-list
          .post-item
             = render 'post'
+         .post-item.active
+            = render 'post_active'            
 
    // posts.css.sass
       .posts-list
@@ -50,11 +52,21 @@
 
    Пример:
    ```
-        .post
-          .post-title 
-            // title
-          .post-body
-            // body
+   # posts.html.haml
+      .posts-list
+         .post-item
+            .post-item-title
+            .post-item-subtitle
+            
+   // posts.css.sass
+      .posts-list
+         // list styles
+      .post-item
+         // list item styles
+      .post-item-title
+         ...
+      .post-item-subtitle   
+         ...
    ```
    
 8. Активно используем переменные.
