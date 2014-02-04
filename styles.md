@@ -31,18 +31,18 @@
 
    Пример:
    ```
-        # posts.html.haml
-        .posts.highlighted
-          .post.top
+   # posts.html.haml
+      .posts-list
+         .post-item
             = render 'post'
 
-        // posts.css.scss
-        .posts
-          .post .top
-            background: red;
-            
-        .posts .highlighted 
-          // ...
+   // posts.css.sass
+      .posts-list
+         // list styles
+      .post-item
+         // list item styles
+      &.active
+         // active list item styles
    ```
    
 7. Необходимо по возможности максимально использовать классы и определять
