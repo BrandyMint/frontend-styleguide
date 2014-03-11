@@ -7,3 +7,5 @@
 ### styles.md — стили
 
 ### components.md — frontend-компоненты
+
+### frontend_tips.md — оптимизация, все дела
