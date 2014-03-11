@@ -3,11 +3,15 @@
 
 ## CSS transforms
 
+css transforms are faster than css position
+
 http://www.w3schools.com/cssref/css3_pr_transform.asp
 
 http://www.paulirish.com/2012/why-moving-elements-with-translate-is-better-than-posabs-topleft/
 
 ## CSS transitions
+
+css transitions are faster than position animations (jquery)
 
 http://www.w3schools.com/css/css3_transitions.asp
 
@@ -18,6 +22,8 @@ http://css-tricks.com/myth-busting-css-animations-vs-javascript/
 
 
 ## Force hardware acceleration
+
+using GPU for browser rendering is faster
 
 ```
 *
@@ -81,8 +87,16 @@ JUST FUCKING GOOGLE IT
 
 ## PNG & SVG sprites
 
+less requests with sprites
+
 http://compass-style.org/help/tutorials/spriting/
 
+
+## Tools
+
+http://perfectionkills.com/profiling-css-for-fun-and-profit-optimization-notes/
+
+https://developers.google.com/chrome-developer-tools/docs/profiles?hl=ru
 
 ## Links
 
